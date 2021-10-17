@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <title>fitcoding</title>
+    <title>Fitcoding Portfolio</title>
 </head>
 <body>
     <div class="container">
@@ -40,9 +40,9 @@
                 </ul>
             </nav>
             <div class="social-media">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-github-alt"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="http://facebook.com/dehnabeiro" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://github.com/fitcoding" target="_blank"><i class="fab fa-github-alt"></i></a>
+                <a href="https://instagram.com/fitgamingg" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
         </aside>
         <!--section.sessao-conhecimentos>(.sessao-header>h1)+.conhecimentos>(.conhecimento>(.conhecimento-header>i.fab+h3).conhecimento-text>p{lorem30})*6-->
@@ -122,7 +122,7 @@
                        <h2>Gaming</h2>
                        <h3>Java</h3>
                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptates corrupti velit quae perferendis optio enim est ab blanditiis iusto!</p>
-                       <button>Saiba mais</button>
+                       <button class="btn">Saiba mais</button>
                        </div>
                 </div>
                </div>
@@ -133,7 +133,7 @@
                        <h2>PC Hardware</h2>
                        <h3>HTML</h3>
                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nam natus quod, ullam magnam iste vel optio omnis possimus! Odit?</p>
-                       <button>Saiba mais</button>
+                       <button class="btn">Saiba mais</button>
                        </div>
                    </div>
                </div>
@@ -144,13 +144,36 @@
                        <h2>Consoles</h2>
                        <h3>HTML/CSS</h3>
                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ab at harum delectus modi asperiores laborum pariatur illum cupiditate repudiandae.</p>
-                       <button>Saiba mais</button>
+                       <button class="btn">Saiba mais</button>
                        </div>
                    </div>
                </div>
            </div>
        </section>
-    </div>   
+       <section class="sessao-contato" id="contato">
+           <div class="contato-wrapper">
+               <div class="contato-left"></div>
+               <div class="contato-right">
+                   <h1>Contato</h1>
+                   <form>
+                       <div class="input-group">
+                           <input type="text" class="field" id="nome">
+                           <lable for="nome" class="field-label">Nome</lable>
+                       </div>
+                       <div class="input-group">
+                           <input type="text" class="field" id="email">
+                           <lable for="email" class="field-label">E-mail</lable>
+                       </div>
+                       <div class="input-group">
+                           <textarea id="mensagem" class="field"></textarea>
+                           <lable for="mensagem" class="field-label">Mensagem</lable>
+                       </div>
+                       <button type="submit" class="btn btn-submit">Enviar</button>
+                   </form>
+               </div>
+           </div>
+       </section>
+        </div>   
 </body>
 <script src="/script.js"></script>
 </html>
