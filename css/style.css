@@ -308,6 +308,7 @@ width: 100%;
 
 .projetos{
     display: flex;
+    margin-bottom: 1rem;
     justify-content: space-evenly;
 }
 .cards{
@@ -526,7 +527,7 @@ width: 100%;
 
   .sessao-orcamento label{
       font-family: var(--font-secundary);
-      font-size: 1.5;
+      font-size: 1.5rem;
       font-weight: bold;
   }
 
@@ -541,8 +542,15 @@ width: 100%;
   }
 
   .btn-orcamento{
+    width: 100%;
     text-transform: uppercase;
     padding: 1rem;
     cursor: pointer;
     grid-column: 2
+  }
+
+  .sessao-orcamento input[type="range"]{
+      width: 100%;
+      appearance: inherit;
+      cursor: pointer;
   }
